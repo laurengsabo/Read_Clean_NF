@@ -1,4 +1,4 @@
-# bacterial-genomics-wf
+# Read_Clean_NF
 
 A minimal **Nextflow DSL2** workflow submitted for **BIOL7210** at Georgia Tech.
 
