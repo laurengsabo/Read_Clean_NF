@@ -1,0 +1,12 @@
+Unable to find image 'quay.io/biocontainers/seqkit:2.8.2--h9ee0642_0' locally
+2.8.2--h9ee0642_0: Pulling from biocontainers/seqkit
+Error response from daemon: No such container: nxf-6OH4PaDivaCefLsX4TdsS1Z1
+d51fb4bd04ed: Pulling fs layer
+d51fb4bd04ed: Download complete
+d51fb4bd04ed: Pull complete
+Digest: sha256:a087c482d265d4209f2e2bd8f44550b0c79616c24f0f64d1f0f08d354bccd101
+Status: Downloaded newer image for quay.io/biocontainers/seqkit:2.8.2--h9ee0642_0
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+processed files:  2 / 2 [======] ETA: 0s
+[1A[Jprocessed files:  2 / 2 [] ETA: 0s. done
+[1A[Jprocessed files:  2 / 2 [] ETA: 0s. done

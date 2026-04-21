@@ -1,0 +1,148 @@
+Apr-20 20:26:57.518 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf
+Apr-20 20:26:57.700 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.10.4
+Apr-20 20:26:57.739 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/laurengsabo/.nextflow/plugins; core-plugins: nf-amazon@3.4.4,nf-azure@1.20.2,nf-cloudcache@0.5.0,nf-codecommit@0.5.0,nf-console@1.3.0,nf-google@1.23.5,nf-k8s@1.2.2,nf-tower@1.17.5,nf-wave@1.16.1
+Apr-20 20:26:57.765 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Apr-20 20:26:57.766 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Apr-20 20:26:57.768 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Apr-20 20:26:57.789 [main] DEBUG nextflow.util.RetryConfig - Missing nextflow session - using default retry config
+Apr-20 20:26:57.961 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Apr-20 20:26:58.010 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/nextflow.config
+Apr-20 20:26:58.015 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/nextflow.config
+Apr-20 20:26:58.057 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Apr-20 20:26:59.028 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Apr-20 20:26:59.030 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Apr-20 20:26:59.048 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /Users/laurengsabo/.nextflow/secrets/store.json
+Apr-20 20:26:59.051 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@7fc420b8] - activable => nextflow.secret.LocalSecretsProvider@7fc420b8
+Apr-20 20:26:59.065 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Apr-20 20:26:59.081 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [ridiculous_brown] DSL2 - revision: d19286a8cc
+Apr-20 20:26:59.145 [main] DEBUG nextflow.Session - Session UUID: c6040a80-9b64-435a-81b8-c314c6ae88b3
+Apr-20 20:26:59.146 [main] DEBUG nextflow.Session - Run name: ridiculous_brown
+Apr-20 20:26:59.147 [main] DEBUG nextflow.Session - Executor pool size: 10
+Apr-20 20:26:59.160 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Apr-20 20:26:59.166 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=30; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Apr-20 20:26:59.208 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 25.10.4 build 11173
+  Created: 10-02-2026 15:17 UTC (10:17 EDT)
+  System: Mac OS X 26.3.1
+  Runtime: Groovy 4.0.28 on OpenJDK 64-Bit Server VM 23.0.2+7
+  Encoding: UTF-8 (UTF-8)
+  Process: 40213@Laurens-MacBook-Pro.local [127.0.0.1]
+  CPUs: 10 - Mem: 16 GB (16.9 MB) - Swap: 2 GB (1.2 GB)
+Apr-20 20:26:59.235 [main] DEBUG nextflow.Session - Work-dir: /Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/work [Mac OS X]
+Apr-20 20:26:59.235 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/bin
+Apr-20 20:26:59.242 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Apr-20 20:26:59.249 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
+Apr-20 20:26:59.251 [main] DEBUG nextflow.Session - Observer factory (v2): DefaultObserverFactory
+Apr-20 20:26:59.324 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Apr-20 20:26:59.336 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 11; maxThreads: 1000
+Apr-20 20:26:59.381 [main] DEBUG nextflow.Session - Session start
+Apr-20 20:26:59.656 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Apr-20 20:27:00.331 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Apr-20 20:27:00.331 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Apr-20 20:27:00.347 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Apr-20 20:27:00.352 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=10; memory=16 GB; capacity=10; pollInterval=100ms; dumpInterval=5m
+Apr-20 20:27:00.354 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Apr-20 20:27:00.371 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'FASTP': maxForks=0; fair=false; array=0
+Apr-20 20:27:00.391 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:SPADES` matches process SPADES
+Apr-20 20:27:00.392 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Apr-20 20:27:00.392 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Apr-20 20:27:00.392 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'SPADES': maxForks=0; fair=false; array=0
+Apr-20 20:27:00.399 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Apr-20 20:27:00.399 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Apr-20 20:27:00.400 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'SEQKIT': maxForks=0; fair=false; array=0
+Apr-20 20:27:00.401 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: SEQKIT, SPADES, FASTP
+Apr-20 20:27:00.402 [main] DEBUG nextflow.Session - Igniting dataflow network (4)
+Apr-20 20:27:00.408 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > FASTP
+Apr-20 20:27:00.409 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SPADES
+Apr-20 20:27:00.409 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SEQKIT
+Apr-20 20:27:00.411 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_1da6bad3fa90b332: /Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/main.nf
+  Script_c4e0dc5e87ff9b6f: /Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/modules/local/seqkit/main.nf
+  Script_a0a7558d6b4d3c86: /Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/modules/local/spades/main.nf
+  Script_0622cac981891b29: /Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/modules/local/fastp/main.nf
+Apr-20 20:27:00.411 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Apr-20 20:27:00.411 [main] DEBUG nextflow.Session - Session await
+Apr-20 20:27:00.830 [Actor Thread 10] DEBUG nextflow.util.HashBuilder - Unable to get file attributes file: /Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/test_data/sample01_R1.fastq.gz -- Cause: java.nio.file.NoSuchFileException: /Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/test_data/sample01_R1.fastq.gz
+Apr-20 20:27:00.901 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Apr-20 20:27:00.906 [Task submitter] INFO  nextflow.Session - [08/a6f17e] Submitted process > FASTP (sample01)
+Apr-20 20:27:02.554 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: FASTP (sample01); status: COMPLETED; exit: 255; error: -; workDir: /Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/work/08/a6f17eb2a07c8472e2eca47109ead6]
+Apr-20 20:27:02.557 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=30; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Apr-20 20:27:02.570 [TaskFinalizer-1] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=FASTP (sample01); work-dir=/Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/work/08/a6f17eb2a07c8472e2eca47109ead6
+  error [nextflow.exception.ProcessFailedException]: Process `FASTP (sample01)` terminated with an error exit status (255)
+Apr-20 20:27:02.588 [TaskFinalizer-1] ERROR nextflow.processor.TaskProcessor - Error executing process > 'FASTP (sample01)'
+
+Caused by:
+  Process `FASTP (sample01)` terminated with an error exit status (255)
+
+
+Command executed:
+
+  fastp \
+      --in1 sample01_R1.fastq.gz \
+      --in2 sample01_R2.fastq.gz \
+      --out1 sample01_trimmed_1.fastq.gz \
+      --out2 sample01_trimmed_2.fastq.gz \
+      --json sample01_fastp.json \
+      --html sample01_fastp.html \
+      --thread 2 \
+      --detect_adapter_for_pe \
+      --qualified_quality_phred 20 \
+      --length_required 36
+
+Command exit status:
+  255
+
+Command output:
+  (empty)
+
+Command error:
+  WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+  ERROR: Failed to open file: sample01_R1.fastq.gz
+
+Work dir:
+  /Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/work/08/a6f17eb2a07c8472e2eca47109ead6
+
+Container:
+  quay.io/biocontainers/fastp:0.23.4--h5f740d0_0
+
+Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
+Apr-20 20:27:02.613 [main] DEBUG nextflow.Session - Session await > all processes finished
+Apr-20 20:27:02.615 [TaskFinalizer-1] DEBUG nextflow.Session - Session aborted -- Cause: Process `FASTP (sample01)` terminated with an error exit status (255)
+Apr-20 20:27:02.689 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Apr-20 20:27:02.689 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Apr-20 20:27:02.696 [TaskFinalizer-1] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=3.1s; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=2; peakMemory=4 GB; ]
+Apr-20 20:27:02.696 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=3.1s; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=2; peakMemory=4 GB; ]
+Apr-20 20:27:02.696 [TaskFinalizer-1] DEBUG nextflow.Session - null
+java.lang.InterruptedException: null
+	at java.base/java.lang.Object.wait0(Native Method)
+	at java.base/java.lang.Object.wait(Object.java:378)
+	at java.base/java.lang.Thread.join(Thread.java:2017)
+	at java.base/java.lang.Thread.join(Thread.java:2093)
+	at nextflow.trace.AnsiLogObserver.onFlowComplete(AnsiLogObserver.groovy:520)
+	at nextflow.Session$_notifyFlowComplete_lambda39.doCall(Session.groovy:1121)
+	at nextflow.Session.notifyEvent(Session.groovy:1151)
+	at nextflow.Session.notifyFlowComplete(Session.groovy:1121)
+	at nextflow.Session.shutdown0(Session.groovy:779)
+	at nextflow.Session.abort(Session.groovy:834)
+	at nextflow.Session.fault(Session.groovy:796)
+	at nextflow.processor.TaskPollingMonitor.finalizeTask(TaskPollingMonitor.groovy:753)
+	at nextflow.processor.TaskPollingMonitor.safeFinalizeTask(TaskPollingMonitor.groovy:736)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1339)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1094)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:645)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:628)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethodSafe(InvokerHelper.java:82)
+	at nextflow.processor.TaskPollingMonitor$_checkTaskStatus_lambda8.doCall(TaskPollingMonitor.groovy:726)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Apr-20 20:27:02.872 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Apr-20 20:27:02.898 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

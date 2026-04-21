@@ -1,0 +1,7 @@
+- "left reads":
+  - "/Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/work/88/e905e9e6cd5bf430e46eba3d1a1114/sample01_trimmed_1.fastq.gz"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/work/88/e905e9e6cd5bf430e46eba3d1a1114/sample01_trimmed_2.fastq.gz"
+  "type": "paired-end"

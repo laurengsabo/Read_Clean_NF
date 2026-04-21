@@ -1,0 +1,4 @@
+Unable to find image 'staphb/spades:4.0.0' locally
+docker: Error response from daemon: no matching manifest for linux/arm64/v8 in the manifest list entries: no match for platform in manifest: not found
+
+Run 'docker run --help' for more information

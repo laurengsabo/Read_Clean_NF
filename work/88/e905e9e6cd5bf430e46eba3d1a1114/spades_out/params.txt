@@ -1,0 +1,38 @@
+Command line: /SPAdes-4.0.0-Linux/bin/spades.py	-1	/Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/work/88/e905e9e6cd5bf430e46eba3d1a1114/sample01_trimmed_1.fastq.gz	-2	/Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/work/88/e905e9e6cd5bf430e46eba3d1a1114/sample01_trimmed_2.fastq.gz	-o	/Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/work/88/e905e9e6cd5bf430e46eba3d1a1114/spades_out	--threads	2	--memory	4	--careful	
+
+System information:
+  SPAdes version: 4.0.0
+  Python version: 3.10.12
+  OS: Linux-6.12.72-linuxkit-x86_64-with-glibc2.35
+
+Output dir: /Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/work/88/e905e9e6cd5bf430e46eba3d1a1114/spades_out
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Standard mode
+  For multi-cell/isolate data we recommend to use '--isolate' option; for single-cell MDA data use '--sc'; for metagenomic data use '--meta'; for RNA-Seq use '--rna'.
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/work/88/e905e9e6cd5bf430e46eba3d1a1114/sample01_trimmed_1.fastq.gz']
+      right reads: ['/Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/work/88/e905e9e6cd5bf430e46eba3d1a1114/sample01_trimmed_2.fastq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed
+Assembly parameters:
+  k: automatic selection based on read length
+  Repeat resolution is enabled
+  Mismatch careful mode is turned ON
+  MismatchCorrector will be used
+  Coverage cutoff is turned OFF
+  Assembly graph output will use GFA v1.2 format
+Other parameters:
+  Dir for temp files: /Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/work/88/e905e9e6cd5bf430e46eba3d1a1114/spades_out/tmp
+  Threads: 2
+  Memory limit (in Gb): 4
+

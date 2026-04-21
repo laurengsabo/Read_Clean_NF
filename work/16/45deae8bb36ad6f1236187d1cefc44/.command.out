@@ -1,0 +1,11 @@
+
+
+== Warning ==  No assembly mode was specified! If you intend to assemble high-coverage multi-cell/isolate data, use '--isolate' option.
+
+
+
+
+== Error ==  file is empty: /Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/work/16/45deae8bb36ad6f1236187d1cefc44/sample01_trimmed_1.fastq.gz (left reads, library number: 1, library type: paired-end)
+
+In case you have troubles running SPAdes, you can report an issue on our GitHub repository github.com/ablab/spades
+Please provide us with params.txt and spades.log files from the output directory.

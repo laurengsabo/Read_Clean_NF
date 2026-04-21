@@ -1,0 +1,7 @@
+"bwa": "/SPAdes-4.0.0-Linux/bin/spades-bwa"
+"dataset": "/Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/work/88/e905e9e6cd5bf430e46eba3d1a1114/spades_out/input_dataset.yaml"
+"log_filename": "log.properties"
+"max_nthreads": !!int "2"
+"output_dir": "/Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/work/88/e905e9e6cd5bf430e46eba3d1a1114/spades_out/mismatch_corrector/contigs"
+"strategy": "mapped_squared"
+"work_dir": "/Users/laurengsabo/Documents/biol_7210/Read_Clean_NF/work/88/e905e9e6cd5bf430e46eba3d1a1114/spades_out/tmp/corrector_c5q_z_7w"

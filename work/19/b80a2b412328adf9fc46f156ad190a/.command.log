@@ -1,0 +1,4 @@
+Unable to find image 'quay.io/biocontainers/spades:4.0.0--h5ef6573_1' locally
+docker: Error response from daemon: failed to resolve reference "quay.io/biocontainers/spades:4.0.0--h5ef6573_1": quay.io/biocontainers/spades:4.0.0--h5ef6573_1: not found
+
+Run 'docker run --help' for more information

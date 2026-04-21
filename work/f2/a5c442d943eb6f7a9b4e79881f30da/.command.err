@@ -1,0 +1,48 @@
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Detecting adapter sequence for read2...
+No adapter detected for read2
+
+Read1 before filtering:
+total reads: 700949
+total bases: 52838741
+Q20 bases: 52619071(99.5843%)
+Q30 bases: 51921861(98.2648%)
+
+Read2 before filtering:
+total reads: 700949
+total bases: 52837567
+Q20 bases: 52166934(98.7308%)
+Q30 bases: 50850921(96.2401%)
+
+Read1 after filtering:
+total reads: 697740
+total bases: 52615123
+Q20 bases: 52420361(99.6298%)
+Q30 bases: 51744500(98.3453%)
+
+Read2 after filtering:
+total reads: 697740
+total bases: 52612709
+Q20 bases: 52055411(98.9408%)
+Q30 bases: 50790901(96.5373%)
+
+Filtering result:
+reads passed filter: 1395480
+reads failed due to low quality: 6180
+reads failed due to too many N: 0
+reads failed due to too short: 238
+reads with adapter trimmed: 322
+bases trimmed due to adapters: 5574
+
+Duplication rate: 0.837579%
+
+Insert size peak (evaluated by paired-end reads): 116
+
+JSON report: sample01_fastp.json
+HTML report: sample01_fastp.html
+
+fastp --in1 sample01_R1.fastq.gz --in2 sample01_R2.fastq.gz --out1 sample01_trimmed_1.fastq.gz --out2 sample01_trimmed_2.fastq.gz --json sample01_fastp.json --html sample01_fastp.html --thread 2 --detect_adapter_for_pe --qualified_quality_phred 20 --length_required 36 
+fastp v0.23.4, time used: 4 seconds
